@@ -18,3 +18,4 @@
 
 .byebug_history
 sercrets.yml
+config/secrets.yml
