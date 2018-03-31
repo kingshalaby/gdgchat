@@ -45,6 +45,8 @@ group :development do
   gem "capistrano-mb", "~> 0.33.0", :require => false
   gem 'capistrano3-puma', :require => false
   
+  gem 'capistrano-rbenv', :require => false
+  
   
 end
 
