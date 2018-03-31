@@ -38,11 +38,12 @@ group :development do
   
   
   
+  gem "capistrano", "~> 3.10", :require => false
+  
   gem "capistrano-bundler", :require => false
   gem "capistrano-rails", :require => false
-  gem "capistrano", "~> 3.10", :require => false
   gem "capistrano-mb", "~> 0.33.0", :require => false
-  gem 'capistrano3-puma', github: "seuros/capistrano-puma"
+  gem 'capistrano3-puma', :require => false
   
   
 end
